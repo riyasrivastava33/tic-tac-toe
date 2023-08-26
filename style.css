@@ -102,3 +102,10 @@ h2{
     grid-template-columns: repeat(3,12vh);
     }
 }
+@media screen and (max-width:600px){
+    .gamecontainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
